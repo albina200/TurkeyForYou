@@ -15,6 +15,13 @@ hamburger.onclick = function () { //При нажатии на гамбурге�
     navLinks.classList.toggle("nav__links_active"); //Переключаем навлинксу класс
 }
 
+for(let i=0;i<5;i++){//цикл (переменная для цикла;сколько будет рабоать цикл;на сколько будет увеличивотся переменная за один цикл)
+    navAAll[i].onclick = function (){
+        navLinks.classList.remove("nav__links_active");
+        hamburger.classList.remove("hamburger_active");
+    }
+}
+
 
 
 const reviewsSwiper = new Swiper('.reviews__slider', {
