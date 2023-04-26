@@ -116,8 +116,6 @@ header {
 
 
 
-
-
 h2 {
     text-align: center;
 }
@@ -144,7 +142,7 @@ h2 {
 }
 
 .swiper-pagination {
-    transform: translate(0, 30px);
+    transform: translate(0, 50px);
     z-index: 10;
     position: relative;
 }
@@ -158,14 +156,14 @@ h2 {
 }
 
 .swiper-button-prev {
-    left: 40%;
-    top: 115%;
+    left: 50%;
+    top: 114%;
     transform: translate(-150%, -100%);
 }
 
 .swiper-button-next {
-    right: 40%;
-    top: 115%;
+    right: 50%;
+    top: 114%;
     transform: translate(150%, -100%);
 }
 
@@ -188,6 +186,9 @@ h2 {
 }
 
 
+.about-place__elements {
+    gap: 60px;
+}
 
 .about-place__list {
     width: 100%;
@@ -229,4 +230,3 @@ h2 {
     flex-direction: column;
     gap: 20px;
 }
-
