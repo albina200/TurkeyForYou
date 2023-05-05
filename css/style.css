@@ -447,6 +447,7 @@ section .container {
 
 .turs__slider .swiper-slide img {
     border-radius: 5px;
+    width: 100%;
 }
 
 .turs__slider .swiper-slide a {
