@@ -553,7 +553,7 @@ select option {
 
 input:focus,
 select:focus {
-    background-color: #a7bdcc36;
+    background-color: #a7bdcc13;
 }
 
 ::-webkit-input-placeholder {
@@ -589,7 +589,7 @@ label {
 }
 
 .send:hover {
-    background-color: #a7bdcc36;
+    background-color: #a7bdcc13;
     color: #FFFFFF;
 }
 
