@@ -574,7 +574,7 @@ label {
     text-align: center;
 }
 
-button {
+.send {
     width: 300px;
     margin: 20px 0 0 0;
     padding: 12px;
@@ -588,10 +588,11 @@ button {
     transition: 0.2s;
 }
 
-button:hover {
+.send:hover {
     background-color: #a7bdcc36;
     color: #FFFFFF;
 }
+
 
 
 
