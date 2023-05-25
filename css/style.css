@@ -538,7 +538,7 @@ select option {
 
 input:focus,
 select:focus {
-    background-color: #ffffff27;
+    background-color: #a7bdcc36;
 }
 
 ::-webkit-input-placeholder {
@@ -568,13 +568,13 @@ button {
     line-height: 20px;
 
     color: #FFFFFF;
-    background-color: #a7bdcc71;
+    background-color: var(--colorButton);
 
     transition: 0.2s;
 }
 
 button:hover {
-    background-color: transparent;
+    background-color: #a7bdcc36;
     color: #FFFFFF;
 }
 
