@@ -117,7 +117,7 @@
     input,
     select,
     option,
-    button {
+    .send {
         font-size: 13px;
         line-height: 18px;
     }
@@ -198,7 +198,7 @@
     input,
     select,
     option,
-    button {
+    .send {
         width: 90%;
         font-size: 12px;
         line-height: 17px;
